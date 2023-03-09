@@ -1,0 +1,28 @@
+/* Mobile L rules */
+@media screen and (max-width: 425px) {
+    .card {
+        width: 80%;
+        min-width: 0;
+    }
+    .icon-container img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+/* Mobile M rules */
+@media screen and (max-width: 375px) {
+    .search-btn {
+        width: 60px;
+    }
+    .weather-result {
+        padding-right: 0;
+    }
+}
+
+/* Mobile S rules */
+@media screen and (max-width: 320px) {
+    .weather-result {
+        padding-left: 0.2em;
+    }
+}
